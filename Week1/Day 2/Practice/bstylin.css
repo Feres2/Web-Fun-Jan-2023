@@ -1,0 +1,39 @@
+button{
+    
+    margin: 10px;
+    
+}
+.btn1{
+    
+    border-radius: 40%;
+    width: 10%;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-color: rgb(13, 174, 238);
+    color:rgb(4, 97, 104);
+}
+.btn2{
+    border-radius: 50%;
+    background-color:cyan;
+    border-color:rgba(255, 255, 255, 0);
+    color: white;
+    height: 50px;
+    width: 50px;
+}
+.btn3{
+    padding-top: 2px;
+    padding-right: 40px;
+    padding-bottom: 2px;
+    padding-left: 40px;
+    border-width: 3px;
+    background-color: blue;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  
+
+}
+.write{
+    font-family: cursive;
+    color: white;
+}
