@@ -1,0 +1,27 @@
+img{
+    height: 200px;
+}
+h1{
+    text-align: center;
+    color: darkblue;
+    font-family: fantasy;
+    margin: 5%;
+}
+.first{
+    background-color: rgb(131, 247, 247);
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.second{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.third{
+    background-color: rgb(170, 170, 170);
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
