@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.cont{
+    margin-left: 18%;
+    margin-right: 18%;
+}
+.black{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    padding: 2%;
+}
+.white{
+    background-color:white;
+    color: black;
+    font-family: cursive;
+}
+.tit{
+    text-align: center;
+}
+.james{
+    border-style: solid;
+    border-color: black;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1%;
+    height: 20%;
+    
+}
+img{
+    margin: 15%;
+    margin-right: 15%;
+    margin-bottom: 0px;
+}
+.par{
+    margin: 15%;
+    margin-right: 15%;
+    font-family: cursive;
+
+}
+.doe{
+    margin: 15%;
+    margin-right: 15%;
+    font-family: cursive;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    font-family: cursive;
+    border-style: solid;
+    width: 98%;
+    height: 150px;
+    margin-top: 3%;
+    padding: 1%;
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+background-color: yellow;
+    color:black;
+    font-family: cursive;
+    height: 30px;
+    box-shadow: 3px 3px black;
+    width: 20%;
+    
+}
+.para2{
+    margin-top: 6% ;
+}
+.header1{
+    font-family: cursive;
+    border-style: solid;
+    width: 98%;
+    height: 150px;
+    margin-top: 3%;
+    padding: 1%;
+}
