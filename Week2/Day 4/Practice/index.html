@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojo Weather</title>
+</head>
+<body>
+        <!---------------------------------------------------The navigator bar----------------------------------------------------------------->
+    <div class="top">
+        <div class="nav-bar">
+            <h1>DojoWeather</h1>
+            <ul class="nav-links" onclick="loading()">
+                <li ><a href="#">Burbank</a></li>
+                <li ><a href="#">Chicago</a></li>
+                <li ><a href="#">Dallas</a></li>
+            </ul>
+        </div>
+    </div>
+        <!------------------------------------------------------Select Bar---------------------------------------------------------------------->
+    <div class="con">
+        <div class="select-bar">
+            <h1>San Jose</h1>
+            <p>show temperature in
+            <select>
+                <option>°C</option>
+                <option>°F</option>
+            </select>
+            </p>
+        </div>
+    </div>
+    <!------------------------------------------------------Weather---------------------------------------------------------------------->
+    <div class="big-box">
+        <div class="box1">
+            <h1>Today</h1>
+            <img src="assets//some_rain.png" alt="rainy pic">
+            <p>some rain</p>
+            <ul>
+                <span class="red"><li>24°</li></span>
+                <span class="blue"><li>18°</li></span>
+            </ul>
+        </div>
+        <div class="box1">
+            <h1>Tomorrow</h1>
+            <img src="assets//some_sun.png" alt="suny pic">
+            <p>some sun</p>
+            <ul>
+                <span class="red"><li>27°</li></span>
+                <span class="blue"><li>19°</li></span>
+            </ul>
+        </div>
+        <div class="box1">
+            <h1>Friday</h1>
+            <img src="assets//some_clouds.png" alt="cloud pic">
+            <p>some clouds</p>
+            <ul>
+                <span class="red"><li>21°</li></span>
+                <span class="blue"><li>16°</li></span>
+            </ul>
+        </div>
+        <div class="box1">
+            <h1>Saturday</h1>
+            <img src="assets//some_sun.png" alt="sun pic">
+            <p>some sun</p>
+            <ul>
+                <span class="red"><li>26°</li></span>
+                <span class="blue"><li>21°</li></span>
+            </ul>
+        </div>
+        <!------------------------------------------------------Cookies Accept---------------------------------------------------------------------->
+        <div class="cookie">
+            <img src="assets//cookie.png" alt="cockie pic">
+            <div>
+            <p>
+                <h1>Stop! Cookie time</h1>
+                We use cookies (sadly not the edible ones) to personalize content and ads,
+                to provide social media features and to analyse our traffic<a href="#"> Read more...</a>
+            </p>
+            </div>
+            <button onclick="cancel()">I Accept</button>
+
+        </div>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
